@@ -2,10 +2,57 @@
 @import url(reset.css);
 @import url(../font/font.css);
 
-h2 {
-    font-family: 'Pretendard';
+body {
+    color: #EEEEEE;
+    font-family: pretendard;
 }
 
-h3 {
-    font-family: 'Aritaburi';
+.header {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+}
+
+.header .inner {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .inner .nav_pc {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header .inner .nav_pc .gnb {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+.header .inner .nav_pc .gnb >li .depth-02 {
+    display: none;
+}
+
+.header .inner .nav_pc .util {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .inner .icon_wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .inner .mobile {
+    display: none;
+}
+
+
+
+.main .main_visual img {
+    /*     width: 100%;
+    height: 100%;
+    object-fit: cover; */
 }
