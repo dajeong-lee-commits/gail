@@ -115,205 +115,208 @@ body {
     .header .inner .menu_btn {
         display: block;
     }
+}
 
 
-    @media screen and (max-width: 402px) {
-        .main .main_visual {
-            height: 100vh;
-            position: relative;
-        }
+@media screen and (max-width: 402px) {
+    .main .main_visual {
+        height: 100vh;
+        position: relative;
+    }
 
-        .main .main_visual img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-        }
+    .main .main_visual img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
 
-        .main .text {
-            font-family: 'Eulyoo1945';
-            font-size: 14px;
-            position: absolute;
-            top: 40%;
-            left: 10%;
-            transform: translate(-10%, -40%);
-            display: none;
-        }
+    .main .text {
+        font-family: 'Eulyoo1945';
+        font-size: 14px;
+        position: absolute;
+        top: 40%;
+        left: 10%;
+        transform: translate(-10%, -40%);
+        display: none;
+    }
 
-        #section1 {}
+    #section1 {}
 
-        #section1 .inner {
-            max-width: 402px;
-            width: calc(100% - 40px);
-            margin: 0 auto;
-            padding: 60px 0;
-        }
+    #section1 .inner {
+        max-width: 402px;
+        width: calc(100% - 40px);
+        margin: 0 auto;
+        padding: 60px 0;
+    }
 
-        #section1 .inner .item_wrap {
-            display: flex;
-            justify-content: space-between;
-        }
+    #section1 .inner .item_wrap {
+        display: flex;
+        justify-content: space-between;
+    }
 
-        #section1 .inner .item_wrap .text_wrap {
-            width: 100%;
+    #section1 .inner .item_wrap .text_wrap {
+        width: 100%;
 
-        }
+    }
 
-        #section1 .inner .item_wrap .text_wrap h2 {
-            font-family: 'Eulyoo1945';
-            margin-bottom: 20px;
-            font-size: 22px;
-        }
+    #section1 .inner .item_wrap .text_wrap h2 {
+        font-family: 'Eulyoo1945';
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
 
-        #section1 .inner .item_wrap .text_wrap p {
-            margin: 30px 0;
-            font-size: 14px;
-            font-weight: 200;
-        }
+    #section1 .inner .item_wrap .text_wrap p {
+        margin: 30px 0;
+        font-size: 14px;
+        font-weight: 200;
+    }
 
-        #section1 .inner .item_wrap .image {
-            display: none;
-        }
-
-
-
-        #section2 {
-            position: relative;
-            color: rgb(54, 29, 0)
-        }
-
-        #section2 .inner {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-end;
+    #section1 .inner .item_wrap .image {
+        display: none;
+    }
 
 
 
-        }
+    #section2 {
+        position: relative;
+        color: rgb(54, 29, 0)
+    }
 
-        #section2 .inner .image {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 50%;
-            height: 100%;
-        }
+    #section2 .inner {
+        max-width: 402px;
+        width: calc(100% - 40px);
+        margin: 0 auto;
+        padding: 30px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
 
-        #section2 .inner .image img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-
-        }
-
-        #section2 .inner .item_wrap {
-            width: 40.58%;
-
-        }
-
-        #section2 .inner .item_wrap .text_wrap {
-            font-size: 20px;
-        }
-
-        #section2 .inner .item_wrap .text_wrap h3 {
-            margin-bottom: 10px;
-            font-family: 'Eulyoo1945';
-            font-weight: bold;
-
-        }
-
-        #section2 .inner .item_wrap .text_wrap h2 {
-            font-size: 60px;
-            font-family: 'Eulyoo1945';
-            font-weight: bold;
-        }
-
-        #section2 .inner .item_wrap .text_wrap p {
-            margin: 150px 0 68px;
-        }
-
-        #section2 .inner .item_wrap .view_btn a {
-            display: block;
-            font-size: 16px;
-            width: 103px;
-            height: 32px;
-            border: 1px solid rgb(54, 29, 0);
-            background-color: blue;
-            display: none;
-        }
-
-        #section3 {
-            position: relative;
-            color: rgb(54, 29, 0)
-        }
-
-        #section3 .inner {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            text-align: right;
-
-
-
-        }
-
-        #section3 .inner .image {
-            position: absolute;
-            top: 0;
-            right: 0;
-            width: 50%;
-            height: 100%;
-        }
-
-        #section3 .inner .image img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-
-        }
-
-        #section3 .inner .item_wrap {
-            width: 40.58%;
-
-        }
-
-        #section3 .inner .item_wrap .text_wrap {
-            font-size: 20px;
-        }
-
-        #section3 .inner .item_wrap .text_wrap h3 {
-            margin-bottom: 10px;
-            font-family: 'Eulyoo1945';
-            font-weight: bold;
-        }
-
-        #section3 .inner .item_wrap .text_wrap h2 {
-            font-size: 60px;
-            font-family: 'Eulyoo1945';
-            font-weight: bold;
-        }
-
-        #section3 .inner .item_wrap .text_wrap p {
-            margin: 150px 0 68px;
-        }
-
-        #section3 .inner .item_wrap .view_btn a {
-            display: block;
-            font-size: 16px;
-            width: 103px;
-            height: 32px;
-            border: 1px solid rgb(54, 29, 0);
-            background-color: blue;
-            display: none;
-        }
 
 
     }
+
+    #section2 .inner .image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 100%;
+    }
+
+    #section2 .inner .image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+    }
+
+    #section2 .inner .item_wrap {
+        width: 40.58%;
+
+    }
+
+    #section2 .inner .item_wrap .text_wrap {
+        font-size: 20px;
+    }
+
+    #section2 .inner .item_wrap .text_wrap h3 {
+        margin-bottom: 10px;
+        font-family: 'Eulyoo1945';
+        font-weight: bold;
+
+    }
+
+    #section2 .inner .item_wrap .text_wrap h2 {
+        font-size: 60px;
+        font-family: 'Eulyoo1945';
+        font-weight: bold;
+    }
+
+    #section2 .inner .item_wrap .text_wrap p {
+        margin: 150px 0 68px;
+    }
+
+    #section2 .inner .item_wrap .view_btn a {
+        display: block;
+        font-size: 16px;
+        width: 103px;
+        height: 32px;
+        border: 1px solid rgb(54, 29, 0);
+        background-color: blue;
+        display: none;
+    }
+
+    #section3 {
+        position: relative;
+        color: rgb(54, 29, 0)
+    }
+
+    #section3 .inner {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: right;
+
+
+
+    }
+
+    #section3 .inner .image {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 50%;
+        height: 100%;
+    }
+
+    #section3 .inner .image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+    }
+
+    #section3 .inner .item_wrap {
+        width: 40.58%;
+
+    }
+
+    #section3 .inner .item_wrap .text_wrap {
+        font-size: 20px;
+    }
+
+    #section3 .inner .item_wrap .text_wrap h3 {
+        margin-bottom: 10px;
+        font-family: 'Eulyoo1945';
+        font-weight: bold;
+    }
+
+    #section3 .inner .item_wrap .text_wrap h2 {
+        font-size: 60px;
+        font-family: 'Eulyoo1945';
+        font-weight: bold;
+    }
+
+    #section3 .inner .item_wrap .text_wrap p {
+        margin: 150px 0 68px;
+    }
+
+    #section3 .inner .item_wrap .view_btn a {
+        display: block;
+        font-size: 16px;
+        width: 103px;
+        height: 32px;
+        border: 1px solid rgb(54, 29, 0);
+        background-color: blue;
+        display: none;
+    }
+
+
 }
+
 
 
 .main .main_visual {
