@@ -49,9 +49,13 @@ body {
 .header .inner .nav_pc .gnb>li .depth-01 {}
 
 .header .inner .nav_pc .gnb>li .depth-02 {
+    position: absolute;
     display: none;
 
+}
 
+.header .inner .nav_pc .gnb>li:hover .depth-02 {
+    display: block;
 }
 
 .header .inner .nav_pc .gnb>li .depth-02 li {}
@@ -75,7 +79,7 @@ body {
     justify-content: space-between;
     column-gap: 24px;
 }
-
+#dlf,#/*  */
 .header .inner .util>li .icon_wrap li {}
 
 .header .inner .util>li .icon_wrap li a {}
@@ -98,6 +102,16 @@ body {
 .header .inner .nav_mobile .close_btn img {}
 
 .header .inner .nav_mobile .util {}
+
+@media screen and (max-width: 1024px) {
+    .header .inner .pc {
+        display: none;
+    }
+    .header .inner .menu_btn {
+        display: block;
+    }
+
+}
 
 
 .main .main_visual {
