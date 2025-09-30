@@ -317,12 +317,17 @@ footer .inner .footer_nav li a {}
 
 footer .inner .info_wrap {
     margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
 }
 
 footer .inner .info_wrap ul {
     display: flex;
     gap: 16px;
     justify-content: center;
+
 }
 
 footer .inner .info_wrap ul li {
@@ -331,6 +336,7 @@ footer .inner .info_wrap ul li {
 
 footer .inner .copyright {
     text-align: center;
+    color: #888888;
 }
 
 footer .inner .copyright p {}
