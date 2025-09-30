@@ -14,40 +14,40 @@ body {
 }
 
 .header .inner {
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header .inner .nav_pc {
     display: flex;
     justify-content: space-between;
 
 }
+.header .inner .logo {}
+.header .inner .logo a {}
+.header .inner .logo a img {}
 
-.header .inner .nav_pc .gnb {
-    display: flex;
-    justify-content: space-between;
-    gap: 80px;
-}
-.header .inner .nav_pc .gnb >li .depth-02 {
-    display: none;
-}
+.header .inner .nav_pc {}
+.header .inner .nav_pc .gnb {}
+.header .inner .nav_pc .gnb > li .depth-01 {}
+.header .inner .nav_pc .gnb > li .depth-02 {}
+.header .inner .nav_pc .gnb > li .depth-02 li {}
+.header .inner .nav_pc .gnb > li .depth-02 li a {}
 
-.header .inner .nav_pc .util {
-    display: flex;
-    justify-content: space-between;
-}
+.header .inner .util {}
+.header .inner .util > li {}
+.header .inner .util > li a {}
+.header .inner .util > li .icon_wrap  {}
+.header .inner .util > li .icon_wrap li {}
+.header .inner .util > li .icon_wrap li a {}
+.header .inner .util > li .icon_wrap li a img {}
 
-.header .inner .icon_wrap {
-    display: flex;
-    justify-content: space-between;
-}
 
 .header .inner .mobile {
     display: none;
 }
+.header .inner .menu_btn {}
+.header .inner .menu_btn img {}
+
+.header .inner .nav_mobile {}
+.header .inner .nav_mobile .close_btn {}
+.header .inner .nav_mobile .close_btn img {}
+.header .inner .nav_mobile .util {}
 
 
 
