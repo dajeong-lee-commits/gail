@@ -179,8 +179,7 @@ body {
 
 
     #section2 {
-        position: relative;
-        color: rgb(54, 29, 0)
+        position: static;
     }
 
     #section2 .inner {
@@ -197,11 +196,9 @@ body {
     }
 
     #section2 .inner .image {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 50%;
-        height: 100%;
+        position: static;
+        display: flex;
+
     }
 
     #section2 .inner .image img {
