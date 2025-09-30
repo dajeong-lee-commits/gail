@@ -6,7 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="lib/fullpage.css">
 </head>
+<script src="lib/fullpage.js"></script>
+<script>
+    window.onload = () => {
+        var myFullpage = new fullpage('#fullpage', {
+            anchors: ['firstPage', 'secondPage', '3rdPage'],
+            sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
+            navigation: true,
+            navigationPosition: 'right',
+            navigationTooltips: ['First page', 'Second page', 'Third and last page'],
+            responsiveWidth: 900,
+            afterResponsive: function (isResponsive) {
+
+            }
+
+        });
+
+    };
+</script>
 
 <body>
     <header class="header">
@@ -82,7 +101,7 @@
                     </ul><!-- .icon_wrap end -->
                 </li>
             </ul><!-- .util pc end -->
-            
+
             <button class="menu_btn mobile">
                 <img src="img/icon/icon_menu.svg" alt="모바일 메뉴화면">
             </button><!-- .menu_btn end -->
@@ -162,6 +181,17 @@
             </nav><!-- nav_mobile end -->
         </div><!-- .inner end -->
     </header><!-- .header end-->
+    <div id="fullpage">
+        <div class="section fp-auto-height-responsive" id="section0">
+
+        </div>
+        <div class="section" id="section1">
+
+        </div>
+        <div class="section" id="section2">
+
+        </div>
+    </div>
     <main class="main">
         <section class="main_visual">
             <img src="img/main_visual/단청 확대사진.png" alt="">
